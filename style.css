@@ -1,0 +1,181 @@
+.row{
+  margin-right: 0px !important;
+}
+.row > h6{
+  margin-top: 155px;
+}
+.row > h6 + button{
+  border-radius: 100px;
+}
+.principal {
+  height: 577px;
+  background: #282828;
+  color: #b3b3b3;
+}
+.lateral1{
+  height: 577px;
+  background: black;
+}
+.lateral2{
+  height: 577px;
+  background: black;
+}
+
+.inferior{
+  background:#282828;
+  height: 80px;
+  color: white;
+}
+
+.novaplaylist{
+  border-top: 1px solid #282828;
+}
+
+.row2 > div:hover, li:hover, .novaplaylist > div > p:hover{
+  color: white;
+  cursor: pointer;
+  padding:5px;
+  font-weight: 900;
+}
+
+.row2 > div{
+  width: fit-content;
+}
+
+
+.lateral1 div{
+  color: #b3b3b3;
+}
+
+.final{
+  overflow-y: auto;
+  height: 59%;
+}
+
+::-webkit-scrollbar {
+	width: 14px;
+}
+::-webkit-scrollbar-thumb {
+	background-clip: content-box;
+	border: 4px solid transparent;
+	border-radius: 7px;
+  color: #666666FF;
+	box-shadow: inset 0 0 0 10px;
+}
+
+::-webkit-scrollbar-button {
+	width: 5px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:  #666666FF;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+
+.input-group > span{
+  background-color: transparent;
+  border: transparent;
+  position: absolute;
+  bottom: .5px;
+  top:1px;
+}
+
+.input-group > .form-control{
+  border-radius: 5000px;
+
+}
+
+.input-group > .form-control:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#abc-ig{
+  border-top: 1px solid gray;
+}
+#abc{
+  background-color: transparent;
+  border: transparent;
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.hide, h6+.hide, video+.hide{
+  display: none;
+}
+
+#rowSelect{
+  border-bottom: 1px solid gray;
+}
+
+label+select{
+  border-color: #161819;
+  width: 144px;
+  background: #3b3b3b;
+  color: white;
+  height: 26px;
+}
+
+label+select:focus{
+  outline-color: grey;
+  outline-style: double;
+}
+
+img{
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+}
+
+.Imagens{
+  height: 45%;
+  overflow-y: auto;
+}
+
+img:hover{
+  cursor: pointer;
+  padding: 7px;
+}
+
+.Superior{
+  margin-top:9px;
+}
+
+.Barra{
+  margin-left: 31%;
+  border-radius:500px;
+}
+
+.Barra > .progress{
+  height: 9px;
+}
+
+.Barra + .Icones{
+  position: absolute;
+  margin-top: 1.2%;
+  width: 155px;
+  margin-left:85%;
+}
+
+.Icones .progress{
+  width: 56px;
+  height: 6px;
+  background: grey;
+  position: absolute;
+  top: 11px;
+  left: 93px;
+}
+
+video{
+  width:171px;
+  height:151px;
+  margin-left: 27px;
+  margin-top: 100px;
+}
